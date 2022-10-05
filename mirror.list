@@ -21,8 +21,8 @@ deb http://archive.ubuntu.com/ubuntu focal main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu focal-updates main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu focal-security main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu focal-backports main restricted universe multiverse
-deb http://http.kali.org/kali kali-rolling main contrib non-free main/debian-installer contrib/debian-installer non-free/debian-installer
+deb http://archive.kali.org/kali kali-rolling main contrib non-free main/debian-installer contrib/debian-installer non-free/debian-installer
 
 clean http://archive.ubuntu.com/ubuntu
-clean http://http.kali.org/kali
+clean http://archive.kali.org/kali
 
