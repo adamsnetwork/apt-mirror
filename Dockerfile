@@ -6,4 +6,4 @@ ADD apt-mirror /usr/local/bin/apt-mirror
 ADD mirror.list /etc/apt/mirror.list
 USER apt-mirror
 VOLUME [ "/var/spool/apt-mirror" ]
-ENTRYPOINT [ "/usr/local/bin/apt-mirror" ]
+ENTRYPOINT [ "apt-mirror" ]
