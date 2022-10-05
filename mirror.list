@@ -4,7 +4,7 @@ set skel_path         $base_path/skel
 set var_path          $base_path/var
 set postmirror_script $var_path/postmirror.sh
 set defaultarch       amd64
-set run_postmirror    0
+set run_postmirror    1
 set nthreads          200
 set limit_rate        10000m
 set _tilde            0
@@ -25,4 +25,3 @@ deb http://archive.kali.org/kali kali-rolling main contrib non-free main/debian-
 
 clean http://archive.ubuntu.com/ubuntu
 clean http://archive.kali.org/kali
-
